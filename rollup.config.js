@@ -40,7 +40,7 @@ export default [
   },
   {
     input: `./src/utils/exports.js`,
-    output: { file: `dist/index.cjs.js`, format: 'cjs' },
+    output: { file: `dist/index.cjs`, format: 'cjs' },
     external,
     plugins: [babel(getBabelOptions({ useESModules: false })), resolve({ extensions })],
   },

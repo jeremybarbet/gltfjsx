@@ -1,4 +1,5 @@
 import parse from './parser.js'
 import { GLTFLoader as GLTFStructureLoader } from '../bin/GLTFLoader.js'
+import gltfjsx from '../gltfjsx.js'
 
-export { parse, GLTFStructureLoader }
+export { gltfjsx, parse, GLTFStructureLoader }
